@@ -52,14 +52,14 @@
             this.cboCarreras = new System.Windows.Forms.ComboBox();
             this.cboMaterias = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.dgbAlumnos = new System.Windows.Forms.DataGridView();
+            this.dgvAlumnos = new System.Windows.Forms.DataGridView();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnCambios = new System.Windows.Forms.Button();
             this.btnBajas = new System.Windows.Forms.Button();
             this.btnAltas = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgbAlumnos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -167,6 +167,7 @@
             this.txtNocontrol.Name = "txtNocontrol";
             this.txtNocontrol.Size = new System.Drawing.Size(153, 20);
             this.txtNocontrol.TabIndex = 13;
+            this.txtNocontrol.Click += new System.EventHandler(this.txtNocontrol_Click);
             // 
             // label9
             // 
@@ -315,13 +316,13 @@
             this.label11.TabIndex = 25;
             this.label11.Text = "Materias:";
             // 
-            // dgbAlumnos
+            // dgvAlumnos
             // 
-            this.dgbAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgbAlumnos.Location = new System.Drawing.Point(24, 524);
-            this.dgbAlumnos.Name = "dgbAlumnos";
-            this.dgbAlumnos.Size = new System.Drawing.Size(578, 102);
-            this.dgbAlumnos.TabIndex = 27;
+            this.dgvAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlumnos.Location = new System.Drawing.Point(24, 524);
+            this.dgvAlumnos.Name = "dgvAlumnos";
+            this.dgvAlumnos.Size = new System.Drawing.Size(578, 102);
+            this.dgvAlumnos.TabIndex = 27;
             // 
             // btnSalir
             // 
@@ -370,7 +371,7 @@
             this.Controls.Add(this.btnBajas);
             this.Controls.Add(this.btnCambios);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.dgbAlumnos);
+            this.Controls.Add(this.dgvAlumnos);
             this.Controls.Add(this.cboMaterias);
             this.Controls.Add(this.cboCarreras);
             this.Controls.Add(this.groupBox2);
@@ -396,7 +397,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgbAlumnos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -430,7 +431,7 @@
         private System.Windows.Forms.ComboBox cboMaterias;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cboCarreras;
-        private System.Windows.Forms.DataGridView dgbAlumnos;
+        private System.Windows.Forms.DataGridView dgvAlumnos;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnCambios;
         private System.Windows.Forms.Button btnBajas;

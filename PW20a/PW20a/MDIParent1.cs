@@ -29,5 +29,12 @@ namespace PW20a
             alumnos.MdiParent = this;
             alumnos.Show();
         }
+
+        private void catalogosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.MdiParent = this;
+            form1.Show();
+        }
     }
 }
