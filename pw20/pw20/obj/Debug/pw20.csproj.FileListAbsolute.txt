@@ -1,0 +1,13 @@
+C:\Users\kevin\source\repos\pw20\pw20\bin\Debug\pw20.exe.config
+C:\Users\kevin\source\repos\pw20\pw20\bin\Debug\pw20.exe
+C:\Users\kevin\source\repos\pw20\pw20\bin\Debug\pw20.pdb
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.csprojAssemblyReference.cache
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.Properties.Resources.resources
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.csproj.GenerateResource.cache
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.exe
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.pdb
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.Form1.resources
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.MDIParent1.resources
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.Form2.resources
+C:\Users\kevin\source\repos\pw20\pw20\obj\Debug\pw20.Alumnos.resources
